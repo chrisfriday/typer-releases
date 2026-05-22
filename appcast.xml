@@ -14,9 +14,9 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/chrisfriday/typer-releases/releases/download/v1.3/Typer-1.3.zip"
-                length="2272864"
+                length="2272870"
                 type="application/octet-stream"
-                sparkle:edSignature="DWMdf4HpIjT61jaMqr0wXT4BT+8MCsOrjVf1HgmfvrBm7wU/dzbMMBngF1wvcsyM3mcRj0IZBmjoAZf+mw5vDA=="
+                sparkle:edSignature="Lo42bVEBPTHxZ0E7/oYqwSkVrXb/NPjqKyp2eyYTiROcuV/u3AyMlaVeZVfXAuSZlRYS1ydA5tnKfesw2u/JAg=="
             />
         </item>
 
