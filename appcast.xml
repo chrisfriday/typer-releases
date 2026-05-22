@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Typer</title>
+        <link>https://raw.githubusercontent.com/chrisfriday/typer-releases/main/appcast.xml</link>
+        <description>Typer release feed</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.1</title>
+            <pubDate>Thu, 22 May 2026 00:00:00 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.1/Typer-1.1.zip"
+                length="2617328"
+                type="application/octet-stream"
+                sparkle:edSignature="A4H+c2maGa1+bqzGo/8UcyU+5v8TI3NBfy/PCwfKOhh9qOc/zzmjfgpm3nT3wFV2ZnvjM2duRoIf8MPDYtzkBg=="
+            />
+        </item>
+
+    </channel>
+</rss>
