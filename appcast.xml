@@ -7,6 +7,20 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.13</title>
+            <pubDate>Fri, 22 May 2026 10:27:59 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.13/Typer-1.13.zip"
+                length="2298967"
+                type="application/octet-stream"
+                sparkle:edSignature="A49mRrYoL2e4iV2jxQemUbrbqfBzQc5pVzWZeGUtkHzsEHGDQAgGNZ27ZwjVM/RkNuSQk0lg6S1VaOnfN/NpDg=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.12</title>
             <pubDate>Fri, 22 May 2026 09:33:29 +0000</pubDate>
             <sparkle:version>17</sparkle:version>
