@@ -12,6 +12,24 @@
             <sparkle:version>23</sparkle:version>
             <sparkle:shortVersionString>1.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.18</h2>
+  <ul>
+      <li>Fix suggestion flash-then-disappear in rich text editors (contenteditable fields in Chrome)</li>
+  </ul>
+</body>
+</html>]]></description>
             <enclosure
                 url="https://github.com/chrisfriday/typer-releases/releases/download/v1.18/Typer-1.18.zip"
                 length="2360266"
