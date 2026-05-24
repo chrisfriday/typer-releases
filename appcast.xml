@@ -7,6 +7,51 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.19</title>
+            <pubDate>Sun, 24 May 2026 02:27:39 +0000</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+   (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.19</h2>
+  <ul>
+      <li>Improve perso</li>
+      <li>al style memory releva</li>
+      <li>ce (fewer irreleva</li>
+      <li>t suggestio</li>
+      <li>s)</li>
+      <li>Fix overlay positio</li>
+      <li>i</li>
+      <li>g o</li>
+      <li>multi-mo</li>
+      <li>itor a</li>
+      <li>d </li>
+      <li>o</li>
+      <li>-co</li>
+      <li>tiguous display setups</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.19/Typer-1.19.zip"
+                length="2360695"
+                type="application/octet-stream"
+                sparkle:edSignature="JkDLw3NnXX7cgDHFmWHemXqVeSqCjJMdb9RODKDv6HBA5QQLYnev2BPJRNIbQ1hNGcamZIPnwOvgde/vngn+Cg=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.18</title>
             <pubDate>Sat, 23 May 2026 02:52:27 +0000</pubDate>
             <sparkle:version>23</sparkle:version>
