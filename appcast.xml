@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.44</title>
+            <pubDate>Mon, 25 May 2026 21:51:09 +0000</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>1.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.44</h2>
+  <ul>
+      <li>Fix double period when context already ends with punctuation</li>
+      <li>The sentence-break insertion now checks whether the context already ends with .?!,:; before adding '. ' — prevents 'Good morning.. How are you?' when the accepted word already carried a trailing period.</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.44/Typer-1.44.zip"
+                length="2418603"
+                type="application/octet-stream"
+                sparkle:edSignature="ft9MPUxC1kcvtUQ+1+ygcevYkcjGK1ieD40sd6tZSfkSB8FZqms52LyGQhi7z0NZqKAz8Wh7atShJ623vFjhDw=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.43</title>
             <pubDate>Mon, 25 May 2026 21:45:42 +0000</pubDate>
             <sparkle:version>48</sparkle:version>
