@@ -7,6 +7,40 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.30</title>
+            <pubDate>Mon, 25 May 2026 07:44:17 +0000</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>1.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.30</h2>
+  <ul>
+      <li>Keep Confluence suggestions anchored to the detected cursor in Chrome and Edge instead of falling back to stale accessibility caret geometry.</li>
+      <li>Use surrounding Confluence text for suggestions only when the accessibility context matches the live typed buffer, falling back to typed context when Confluence reports text from elsewhere.</li>
+      <li>Reset cached cursor and context after caret-moving actions so suggestions do not reuse an old paragraph.</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.30/Typer-1.30.zip"
+                length="2477483"
+                type="application/octet-stream"
+                sparkle:edSignature="DOTuMEnKUV9N4tlb9w3eiEYhv9mM6mvWEmq5mz4BWrcvjjlwtpmr0FuuXm1j0ds0bhHqsY/K906A13kuCj+QBQ=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.29</title>
             <pubDate>Mon, 25 May 2026 06:04:40 +0000</pubDate>
             <sparkle:version>34</sparkle:version>
