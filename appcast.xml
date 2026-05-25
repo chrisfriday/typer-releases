@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.41</title>
+            <pubDate>Mon, 25 May 2026 12:53:51 +0000</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>1.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.41</h2>
+  <ul>
+      <li>Fix suggestion rejected when model echoes context prefix</li>
+      <li>SuggestionTextNormalizer now strips the echoed context and uses the continuation rather than rejecting the whole response. Copy Diagnostics in debug panel now includes full untruncated live state data.</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.41/Typer-1.41.zip"
+                length="2418516"
+                type="application/octet-stream"
+                sparkle:edSignature="I0YNRvJPpxGB4zvLSc5LafDdqEE9E39uU3uQqYxb1m9k2vkzSXI9VPBnNr9me/dikdJWpB29y0xeVDSkRRCFCA=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.40</title>
             <pubDate>Mon, 25 May 2026 12:40:36 +0000</pubDate>
             <sparkle:version>45</sparkle:version>
