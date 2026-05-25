@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.28</title>
+            <pubDate>Mon, 25 May 2026 05:44:54 +0000</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.28</h2>
+  <ul>
+      <li>Fix Confluence context capture in Chrome by ignoring stale AX context when it disagrees with the live typed buffer.</li>
+      <li>Fix Confluence overlay placement by preferring fresh cursor detection over unreliable Chrome AX caret geometry.</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.28/Typer-1.28.zip"
+                length="2475016"
+                type="application/octet-stream"
+                sparkle:edSignature="aMU65zYkv2tHQrbT76C45wmRc2pWPnVs4txtrix32zUMefRmdQ4s1m9lEiWhEe+6C6cS2tY3ssFvJSb9h9IfDA=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.27</title>
             <pubDate>Mon, 25 May 2026 05:17:37 +0000</pubDate>
             <sparkle:version>32</sparkle:version>
