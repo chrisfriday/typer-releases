@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.45</title>
+            <pubDate>Mon, 25 May 2026 22:00:09 +0000</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>1.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.45</h2>
+  <ul>
+      <li>Add Typing Trace to debug panel</li>
+      <li>Records every suggestion shown, Tab/full acceptance (with exact inserted text and keyboard-buffer context at that moment), and dismissals in a 50-event ring buffer. Visible in Debug panel under 'Typing Trace' with Copy and Clear buttons. Also included in Copy Diagnostics output. Spaces rendered as · so rogue spaces are immediately visible.</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.45/Typer-1.45.zip"
+                length="2426046"
+                type="application/octet-stream"
+                sparkle:edSignature="3XC+BtLJ6tk5GFSW1hvVda5WiewcBVnzaeDrMBUQVQ3EfgVZ558qP+HefKsr9yBYl6eQYrKQkzvfgLEtpI2eCg=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.44</title>
             <pubDate>Mon, 25 May 2026 21:51:09 +0000</pubDate>
             <sparkle:version>49</sparkle:version>
