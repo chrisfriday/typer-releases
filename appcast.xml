@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.47</title>
+            <pubDate>Tue, 26 May 2026 12:57:47 +0000</pubDate>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>1.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.47</h2>
+  <ul>
+      <li>1.47</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.47/Typer-1.47.zip"
+                length="2440795"
+                type="application/octet-stream"
+                sparkle:edSignature="qBj7zzjA3g9/nwKC9GCj0MXLYZRODI7i8sEEWkRQzoBSkbHAgtbqp26Kv0Seop8qBn3BCIKuOyv5MMqHTNy5AA=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.46</title>
             <pubDate>Tue, 26 May 2026 12:45:10 +0000</pubDate>
             <sparkle:version>51</sparkle:version>
