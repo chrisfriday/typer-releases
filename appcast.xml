@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.51</title>
+            <pubDate>Tue, 26 May 2026 23:31:06 +0000</pubDate>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>1.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.51</h2>
+  <ul>
+      <li>Add text snippet expansion: type @@abbreviation then Space to insert any saved text</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.51/Typer-1.51.zip"
+                length="2473119"
+                type="application/octet-stream"
+                sparkle:edSignature="veNWMWXbPjCtSucpairjzXesuEQtxVuuLKjE+msg2GYGgiw6vkZFl6Uti2iQCW82RCUgdapBbxR3cN1FUfICDA=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.50</title>
             <pubDate>Tue, 26 May 2026 22:04:04 +0000</pubDate>
             <sparkle:version>55</sparkle:version>
