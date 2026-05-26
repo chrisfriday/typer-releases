@@ -7,6 +7,42 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.48</title>
+            <pubDate>Tue, 26 May 2026 13:31:47 +0000</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>1.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.48</h2>
+  <ul>
+      <li>Fix ghost text placement on external monitors (incorrect Y-coordinate flip when a display sits above the primary)</li>
+      <li>Reject bad caret rects from Chrome (oversized width), Outlook (stale left-edge), and Gmail (multi-line height union)</li>
+      <li>Find caret via ancestor elements in Chrome contenteditable where AXSelectedTextMarkerRange lives on a parent node</li>
+      <li>Fix child text run sort order so Gmail/Outlook caret position maps correctly in multi-paragraph editors</li>
+      <li>Derive ghost text font size from caret height in Chrome/web where AX font metadata is unavailable</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.48/Typer-1.48.zip"
+                length="2443969"
+                type="application/octet-stream"
+                sparkle:edSignature="fTWy6CZbrmmY/tvFpSBH9gwFNe2Tr7pENvIRPYrmfxQrTDmD9PIMbmrxDi073hgYSL3DwZAuRyEqVNJ5t6u+DA=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.47</title>
             <pubDate>Tue, 26 May 2026 12:57:47 +0000</pubDate>
             <sparkle:version>52</sparkle:version>
