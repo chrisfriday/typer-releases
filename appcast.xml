@@ -7,6 +7,41 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.54</title>
+            <pubDate>Wed, 27 May 2026 09:42:58 +0000</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>1.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.54</h2>
+  <ul>
+      <li>Field-aware completions: Typer now detects what kind of field you're typing in (search bar, code editor, chat, document, URL bar) and adjusts completions accordingly — search and URL fields are excluded, code fields only complete inside comments and strings</li>
+      <li>Smarter candidate selection: before calling the model, Typer now ranks completions from cache, local word completion, and your personal style examples — the best one wins, often with no LLM round-trip</li>
+      <li>Adaptive latency: under load, Typer automatically reduces token budget and OCR timeout to keep completions fast</li>
+      <li>Quality filtering: completions with repeated words, unexpected capitalisation, or content already present to the right of the cursor are silently rejected</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.54/Typer-1.54.zip"
+                length="2628345"
+                type="application/octet-stream"
+                sparkle:edSignature="Y263/eSBUqxysXw5fjTajnZiT9NTT00ga0tlAy/xb+u7ZebMxEb3L5i/cTucOOUbsEHqxOEsatYGDbgO1K5ZDg=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.53</title>
             <pubDate>Wed, 27 May 2026 09:08:11 +0000</pubDate>
             <sparkle:version>58</sparkle:version>
