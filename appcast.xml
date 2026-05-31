@@ -7,6 +7,40 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.60</title>
+            <pubDate>Sun, 31 May 2026 23:31:43 +0000</pubDate>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>1.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.60</h2>
+  <ul>
+      <li>App name and window title now included in LLM prompt for better contextual completions</li>
+      <li>Field placeholder text (e.g. 'Add a comment…') included in prompt when available</li>
+      <li>MidWordCharset guard rejects completions with garbage embedded symbols (e.g. control chars or $^|)</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.60/Typer-1.60.zip"
+                length="2636867"
+                type="application/octet-stream"
+                sparkle:edSignature="BjsBBYLoBYYkhA0/PPu1lH/835SU6/Xyc+9B0gdHsD/U6Wp9IntaYgYuqHC41cp+5CnhL6vHBjlhFlaWq5eZCA=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.59</title>
             <pubDate>Sun, 31 May 2026 23:16:23 +0000</pubDate>
             <sparkle:version>64</sparkle:version>
