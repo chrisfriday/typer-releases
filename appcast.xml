@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.71</title>
+            <pubDate>Mon, 01 Jun 2026 06:21:11 +0000</pubDate>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>1.71</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.71</h2>
+  <ul>
+      <li>Improved suggestion quality and placement from KeyType research</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.71/Typer-1.71.zip"
+                length="2694017"
+                type="application/octet-stream"
+                sparkle:edSignature="G4naDAZhzRVMy0yt7FDVPughogM1bWfcbyT/btODtdYjFi/lixQrB1zDmH+5RONQRxGRI6fgbWY4mAw1FW8hCw=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.70</title>
             <pubDate>Mon, 01 Jun 2026 04:38:57 +0000</pubDate>
             <sparkle:version>75</sparkle:version>
