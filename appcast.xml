@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.80</title>
+            <pubDate>Wed, 03 Jun 2026 09:34:43 +0000</pubDate>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>1.80</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.80</h2>
+  <ul>
+      <li>Capture caret geometry at keystroke time, not after LLM generation — matches KeyType's notification-driven approach</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.80/Typer-1.80.zip"
+                length="2710405"
+                type="application/octet-stream"
+                sparkle:edSignature="CaW37BLFWW2CywqxkrPZas0bL/FeRJP8MqraS7izVsEi8Eu53220gJVX+8i9xwIpzP+jCa/NFzVe3Uv7TPn0Cg=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.79</title>
             <pubDate>Wed, 03 Jun 2026 07:44:41 +0000</pubDate>
             <sparkle:version>84</sparkle:version>
