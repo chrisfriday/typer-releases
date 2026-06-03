@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.75</title>
+            <pubDate>Wed, 03 Jun 2026 05:56:25 +0000</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>1.75</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.75</h2>
+  <ul>
+      <li>Fix overlay placement in Claude and other Electron apps by enabling AXEnhancedUserInterface</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.75/Typer-1.75.zip"
+                length="2705446"
+                type="application/octet-stream"
+                sparkle:edSignature="1zUKQx7Z5RVzppqjC65HTrXo+ggfXVzjnNFWPjavnY4zc+/zzVAJG883wxxZm59yos+MqTHgYApsi1NpqxgzCQ=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.74</title>
             <pubDate>Wed, 03 Jun 2026 04:20:21 +0000</pubDate>
             <sparkle:version>79</sparkle:version>
