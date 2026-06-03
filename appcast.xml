@@ -7,6 +7,40 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.74</title>
+            <pubDate>Wed, 03 Jun 2026 04:20:21 +0000</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>1.74</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.74</h2>
+  <ul>
+      <li>Fix double-space in suggestions from model output</li>
+      <li>Add generation deadline (1.5s) to cancel stale predictions</li>
+      <li>Chunked keyboard injection for Slack (fixes dropped text)</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.74/Typer-1.74.zip"
+                length="2705172"
+                type="application/octet-stream"
+                sparkle:edSignature="mDtYoAaGS2x5lIaR6tPx00PnP+fxcD6PolkC5nHbDQ/k9Tp8kBm/cpQh7hSAdqd9OD/p5E8O7+1F7ppYKT/PCQ=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.73</title>
             <pubDate>Mon, 01 Jun 2026 07:05:38 +0000</pubDate>
             <sparkle:version>78</sparkle:version>
