@@ -7,6 +7,46 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.87</title>
+            <pubDate>Sun, 18 Oct 2026 11:52:49 +0000</pubDate>
+            <sparkle:version>92</sparkle:version>
+            <sparkle:shortVersionString>1.87</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.87</h2>
+  <ul>
+      <li>Fix: mid-word completions no longer show misspelled words; the macOS dictionary fills in when the model can't</li>
+      <li>Fix: re-running the same prompt (alternatives) no longer reads stale model output</li>
+      <li>Alternatives and synonyms now appear in a numbered list: press 1-9 to insert (optional auto-show after a pause or after selecting text)</li>
+      <li>LoRA adapters, instruct-model support, and a smaller model on battery (Advanced)</li>
+      <li>Personalisation reorders alternatives toward your own wording; optional encrypted memory of recent messages</li>
+      <li>Emoji: emoticons like :) and skin tone. Quick pause (Control+Option+P), global toggle (Control+Option+T)</li>
+      <li>More per-app overrides: compatibility mode, code editors, paste workarounds, grey ghost text</li>
+      <li>Learn the confidence cut-off from what you accept, and a wider confidence slider</li>
+      <li>Complete-inside-text toggle, alternate accept keys, time-saved statistic</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.87/Typer-1.87.zip"
+                length="3118686"
+                type="application/octet-stream"
+                sparkle:edSignature="hjdL3IptOUw8E/Jz07b+EDRdcDmFlph9uLRTuv9PrKypvzgJRYLtu/Jwh6c2YXEbXJIoz1f+gqS+UU/a9N/VDw=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.86</title>
             <pubDate>Sun, 18 Oct 2026 10:50:22 +0000</pubDate>
             <sparkle:version>91</sparkle:version>
