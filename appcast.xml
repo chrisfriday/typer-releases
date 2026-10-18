@@ -7,6 +7,45 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.86</title>
+            <pubDate>Sun, 18 Oct 2026 10:50:22 +0000</pubDate>
+            <sparkle:version>91</sparkle:version>
+            <sparkle:shortVersionString>1.86</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.86</h2>
+  <ul>
+      <li>Smarter mid-word completions: token healing re-picks the last token so partial words finish correctly</li>
+      <li>Completion length now scales with how much you've written</li>
+      <li>Prompts learn your voice from messages you just sent (memory only), plus your first name, the site and detected language</li>
+      <li>Over-long context sections are shortened before being dropped, and tokenizing long prompts is cached</li>
+      <li>Alternatives: Option + accept key cycles other completions; select a word and press Control+Option+S for synonyms</li>
+      <li>Per-app overrides: ghost text size, vertical offset, colour, insertion chunk size, paste insertion, smart quotes</li>
+      <li>Warns when another app has leaked event taps; skips very small fields</li>
+      <li>Suggestion tracking now distinguishes typed-past and deleted-back cases</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.86/Typer-1.86.zip"
+                length="3043639"
+                type="application/octet-stream"
+                sparkle:edSignature="P5rUgrYD2An4deLq5FEc6tBak1+SGlwd3BGklV73Z+0Oxhu9h32nfyj53D7vl3MKbKtaN2ZR09RlwachAxmcDg=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.85</title>
             <pubDate>Sun, 18 Oct 2026 08:37:24 +0000</pubDate>
             <sparkle:version>90</sparkle:version>
