@@ -7,6 +7,40 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.93</title>
+            <pubDate>Wed, 28 Oct 2026 02:12:06 +0000</pubDate>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>1.93</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: -apple-system-body; margin: 12px 16px; color: #222; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #1e1e1e; } }
+  h2 { font-size: 14px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h2>What's new in 1.93</h2>
+  <ul>
+      <li>Internal cleanup of how suggestions are shown, accepted and tested; no change to how Typer behaves</li>
+      <li>A Prediction now scores sources against the app it started in</li>
+      <li>Removed unused cursor calibration</li>
+  </ul>
+</body>
+</html>]]></description>
+            <enclosure
+                url="https://github.com/chrisfriday/typer-releases/releases/download/v1.93/Typer-1.93.zip"
+                length="3223605"
+                type="application/octet-stream"
+                sparkle:edSignature="xLnSp+grx/HzZZB1Nio5zFGC0jjwn38m4dyiRyFmlz/QR5F/US4Nc55J+hVR9FU2Fw21JUTkIwJjgu11mlK4AQ=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.92</title>
             <pubDate>Tue, 27 Oct 2026 23:43:55 +0000</pubDate>
             <sparkle:version>97</sparkle:version>
